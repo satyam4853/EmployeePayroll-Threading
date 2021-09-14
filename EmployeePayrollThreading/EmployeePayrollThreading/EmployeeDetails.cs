@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmployeePayrollThreading
 {
-   public class EmployeeDetails
+    public class EmployeeDetails
     {
         public int EmployeeID { get; set; }
         public string EmployeeName { get; set; }
@@ -34,5 +34,6 @@ namespace EmployeePayrollThreading
             this.Tax = Tax;
             this.Country = Country;
         }
+
     }
 }
